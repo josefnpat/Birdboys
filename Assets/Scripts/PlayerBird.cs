@@ -53,22 +53,40 @@ namespace Mirror.Birdboys
         public Transform revolverBulletSpawn;
         public GameObject revolverBulletPrefab;
         public GameObject revolverMuzzleFlash;
+
         private float moveSpeed = 10;//5
-        private float rotateSpeed = 3;//5
+
+        private float inputGetAxisMouseXCache = 0;
+        private float rotateSpeedMin = 0.1f;
+        private float rotateSpeedMax = 10.0f;
+
         public Rigidbody rigidbody;
         [SyncVar]
         public Quaternion headRotation;
         public Quaternion headRotationLocal;
         public TextMesh nameText;
 
+        // global crap that pulls from GameManager
+        private GameObject gameManager;
+        private GameSettings gameSettings;
+        private GameObject inGameMenuPanel;
+
         public GameObject playerCanvas;
         public GameObject deathPanel;
         public Text healthText;
         public Text kdaText;
-
+        
         void Start()
         {
-            if(isLocalPlayer)
+
+            transform.SetAsFirstSibling();
+
+            // haha imposter syndrome!
+            gameManager = GameObject.Find("GameManager");
+            gameSettings = gameManager.GetComponent<GameSettings>();
+            inGameMenuPanel = gameManager.GetComponent<GameManagerBirdboys>().inGameMenuPanel;
+
+            if (isLocalPlayer)
             {
                 foreach (GameObject playerModelPart in playerModelParts)
                 {
@@ -91,6 +109,18 @@ namespace Mirror.Birdboys
                 Cursor.lockState = CursorLockMode.Locked;
                 Cursor.visible = false;
             }
+        }
+
+        public void SetGameManager(GameObject gm)
+        {
+            Debug.Log("SET GAME MANAGER.");
+            gameManager = gm;
+            inGameMenuPanel = gm.GetComponent<GameManagerBirdboys>().inGameMenuPanel;
+        }
+
+        float GetRotateSpeed()
+        {
+            return rotateSpeedMin + gameSettings.mouseSensitivity * (rotateSpeedMax - rotateSpeedMin);
         }
 
         // this is called on the server
@@ -150,13 +180,16 @@ namespace Mirror.Birdboys
                 
             }
 
-
-            if (isLocalPlayer && health > 0)
+            if (isLocalPlayer && health > 0 && !inGameMenuPanel.activeSelf)
             {
+
+                // GetAxis Mouse X and Y is framerate independent
+                inputGetAxisMouseXCache += Input.GetAxis("Mouse X");
+
                 Vector3 rawEuler = head.transform.rotation.eulerAngles + new Vector3(
                     0f,
                     0f,
-                    rotateSpeed * Input.GetAxis("Mouse Y")
+                    GetRotateSpeed() * Input.GetAxis("Mouse Y")
                 );
                 // no you're a hack.
                 float newZ = rawEuler.z;
@@ -188,7 +221,6 @@ namespace Mirror.Birdboys
                 UpdatePlayerCanvas();
             }
 
-
             if (isLocalPlayer && health > 0)
             {
 
@@ -215,12 +247,12 @@ namespace Mirror.Birdboys
                 revolverMuzzleFlash.SetActive(revolverMuzzleFlashDt < revolverMuzzleFlashTime);
                 revolverMuzzleFlashDt += Time.deltaTime;
 
-                if (Input.GetMouseButtonUp(0))
+                if (Input.GetMouseButtonUp(0) && !inGameMenuPanel.activeSelf)
                 {
                     revolverFireReady = true;
                 }
 
-                if (Input.GetMouseButton(0) && revolverFireReady)
+                if (Input.GetMouseButton(0) && revolverFireReady && !inGameMenuPanel.activeSelf)
                 {
                     if (revolverFireDt >= revolverFireTime && revolverBulletsCurrent > 0)
                     {
@@ -232,12 +264,12 @@ namespace Mirror.Birdboys
                     }
                 }
 
-                if(Input.GetButton("Reload"))
+                if(Input.GetButton("Reload") && !inGameMenuPanel.activeSelf)
                 {
                     revolverBulletsCurrent = 0;
                 }
 
-                if(Input.GetButton("Jump"))
+                if(Input.GetButton("Jump") && !inGameMenuPanel.activeSelf)
                 {
 
                 }
@@ -343,16 +375,17 @@ namespace Mirror.Birdboys
 
             UpdatePlayerVisuals();
 
-            if (isLocalPlayer && health > 0)
+            if (isLocalPlayer && health > 0 && !inGameMenuPanel.activeSelf)
             {
 
                 rigidbody.rotation = Quaternion.Euler(
                     rigidbody.rotation.eulerAngles + new Vector3(
                         0f,
-                        rotateSpeed * Input.GetAxis("Mouse X"),
+                        GetRotateSpeed() * inputGetAxisMouseXCache,
                         0f
                     )
                 );
+                inputGetAxisMouseXCache = 0f;
 
                 rigidbody.MovePosition(transform.position +
                     (

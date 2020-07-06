@@ -10,7 +10,7 @@ namespace Mirror.Birdboys
     public class NetworkManagerBirdboys : NetworkManager
     {
 
-        public GameObject welcomePanel;
+        public GameObject gameManager;
 
         List<NetworkConnection> connections = new List<NetworkConnection>();
 
@@ -57,6 +57,7 @@ namespace Mirror.Birdboys
                     GetComponent<NetworkManagerHUD>().enabled = false;
                 }
 
+                GameObject welcomePanel = gameManager.GetComponent<GameManagerBirdboys>().welcomePanel;
                 welcomePanel.SetActive(mode == NetworkManagerMode.Offline);
 
             }

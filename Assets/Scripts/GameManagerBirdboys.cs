@@ -10,19 +10,20 @@ namespace Mirror.Birdboys
     public class GameManagerBirdboys : MonoBehaviour
     {
 
+        public GameObject inGameMenuPanel;
+        public GameObject welcomePanel;
         public GameObject scorePanel;
         public Text scoreText;
-        public GameObject inGameMenuPanel;
 
         void Update()
         {
 
-            if (Input.GetButton("Cancel"))
+            if (Input.GetButtonDown("Cancel"))
             {
-                Application.Quit();
+                ToggleMenu();
             }
 
-            if (Input.GetButton("ShowScorePanel"))
+            if (Input.GetButton("ShowScorePanel") && !welcomePanel.activeSelf && !inGameMenuPanel.activeSelf)
             {
                 scorePanel.SetActive(true);
                 string score = "~Birdboys~\n\n";
@@ -54,6 +55,18 @@ namespace Mirror.Birdboys
                 scorePanel.SetActive(false);
             }
 
+        }
+
+        public void ToggleMenu()
+        {
+            inGameMenuPanel.SetActive(!inGameMenuPanel.activeSelf);
+            Cursor.lockState = inGameMenuPanel.activeSelf ? CursorLockMode.None : CursorLockMode.Locked;
+            Cursor.visible = inGameMenuPanel.activeSelf;
+        }
+
+        public void QuitGame()
+        {
+            Application.Quit();
         }
 
     }
