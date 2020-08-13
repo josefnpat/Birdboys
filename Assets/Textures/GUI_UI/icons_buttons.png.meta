@@ -1,0 +1,1076 @@
+fileFormatVersion: 2
+guid: 4458f8bb198cb3a4688a194c9ec66d10
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7630099604845269239
+    second: BasicButton
+  - first:
+      213: -1879614366485094021
+    second: Input
+  - first:
+      213: 6599997879825956856
+    second: Dropdown
+  - first:
+      213: -2606113364151079245
+    second: dots
+  - first:
+      213: 7691874307600084252
+    second: BasicButtonPushed
+  - first:
+      213: 3376890258480652118
+    second: ClientButton
+  - first:
+      213: 1612297719339904985
+    second: ServerOnlyButton
+  - first:
+      213: 3628554666884908630
+    second: ClientSelectIP
+  - first:
+      213: -4343455997179337103
+    second: HostButton
+  - first:
+      213: 1889025593223101468
+    second: controls
+  - first:
+      213: -1706421724444965190
+    second: woodBG
+  - first:
+      213: 3927746656936227953
+    second: woodenPole
+  - first:
+      213: 2039116055976472430
+    second: woodBG2
+  - first:
+      213: 3702824070966082404
+    second: Paper
+  - first:
+      213: -839192542756513936
+    second: ToggleOff
+  - first:
+      213: -8898032753827993625
+    second: ToggleOn
+  - first:
+      213: 8295838976266999491
+    second: MiniButton
+  - first:
+      213: 3741926900961167151
+    second: MiniButtonPressed
+  - first:
+      213: -5224400526556395714
+    second: QuestionButton
+  - first:
+      213: -915560519887516397
+    second: ToggleBG
+  - first:
+      213: 4862801754937762517
+    second: ToggleSphere
+  - first:
+      213: -1109562032967773519
+    second: exitButton
+  - first:
+      213: -5366244172286454918
+    second: Wifi
+  - first:
+      213: 9018897340460343312
+    second: icons_buttons_23
+  - first:
+      213: 7012188772146157460
+    second: icons_buttons_24
+  - first:
+      213: 1385179679442313047
+    second: icons_buttons_25
+  - first:
+      213: -1201924155588064008
+    second: Cloud
+  - first:
+      213: -2644428696138645505
+    second: clock
+  - first:
+      213: 7959136711979688692
+    second: sliderExample
+  - first:
+      213: 4282952073954784776
+    second: Play
+  - first:
+      213: 6456111395703573162
+    second: icons_buttons_30
+  - first:
+      213: -570427662599494024
+    second: icons_buttons_31
+  - first:
+      213: -588739939090670627
+    second: icons_buttons_32
+  - first:
+      213: -1782456725083256226
+    second: icons_buttons_33
+  - first:
+      213: -5884088854890048706
+    second: icons_buttons_34
+  - first:
+      213: 568709859261962898
+    second: icons_buttons_35
+  - first:
+      213: 7384200533325517823
+    second: icons_buttons_36
+  - first:
+      213: 128117410223778270
+    second: icons_buttons_37
+  - first:
+      213: 4532198310253055558
+    second: icons_buttons_38
+  - first:
+      213: 7156537935285008090
+    second: search
+  - first:
+      213: -4102785468350266947
+    second: Star
+  - first:
+      213: -8538569309526041349
+    second: button-
+  - first:
+      213: 10464167285791478
+    second: button+
+  - first:
+      213: -5479772322212578731
+    second: Global
+  - first:
+      213: -1388695841131526239
+    second: Arrow
+  - first:
+      213: 1041234118142296949
+    second: quarterButton
+  - first:
+      213: 4407227854903783309
+    second: quarterButtonPressed
+  - first:
+      213: 6299364958271286637
+    second: icons_buttons_47
+  - first:
+      213: -2843365275900285826
+    second: SliderBG
+  - first:
+      213: 3426450985627953790
+    second: Slider
+  - first:
+      213: -4933294402911898614
+    second: SliderFill
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BasicButton
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 971
+        width: 208
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f695cd5d07c1690800000000000000
+      internalID: -7630099604845269239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Input
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 974
+        width: 335
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b716fea31b44ae5e0800000000000000
+      internalID: -1879614366485094021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dropdown
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 970
+        width: 488
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff7b597a17e79b50800000000000000
+      internalID: 6599997879825956856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicButtonPushed
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 888
+        width: 208
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1de471fde60fba60800000000000000
+      internalID: 7691874307600084252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClientButton
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 861
+        width: 208
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f573e6ccf1dde20800000000000000
+      internalID: 3376890258480652118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ServerOnlyButton
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 856
+        width: 271
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df6d61cb38006610800000000000000
+      internalID: 1612297719339904985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClientSelectIP
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 856
+        width: 358
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656c2cf9e373b5230800000000000000
+      internalID: 3628554666884908630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HostButton
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 858
+        width: 415
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176e59e78c1f8b3c0800000000000000
+      internalID: -4343455997179337103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controls
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 446
+        width: 451
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c3fafb4ca273a10800000000000000
+      internalID: 1889025593223101468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodBG
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 444
+        width: 529
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6c27d8b729158e0800000000000000
+      internalID: -1706421724444965190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodenPole
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 529
+        width: 36
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174796e36c8228630800000000000000
+      internalID: 3927746656936227953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodBG2
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 454
+        width: 452
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fe54ccf356c4c10800000000000000
+      internalID: 2039116055976472430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paper
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 57
+        width: 426
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bf2b7cfd2136330800000000000000
+      internalID: 3702824070966082404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToggleOff
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 302
+        width: 106
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07757de14d69a54f0800000000000000
+      internalID: -839192542756513936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToggleOn
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 301
+        width: 105
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7aa4caa56d38480800000000000000
+      internalID: -8898032753827993625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniButton
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 312
+        width: 74
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c61c3e789db02370800000000000000
+      internalID: 8295838976266999491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniButtonPressed
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 314
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27c44bd0befde330800000000000000
+      internalID: 3741926900961167151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuestionButton
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 320
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e370e32b6633f77b0800000000000000
+      internalID: -5224400526556395714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToggleBG
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 226
+        width: 103
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d8bb9de864b43f0800000000000000
+      internalID: -915560519887516397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToggleSphere
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 220
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d226309e642c7340800000000000000
+      internalID: 4862801754937762517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exitButton
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 256
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b212b0b53b0a90f0800000000000000
+      internalID: -1109562032967773519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icons_buttons_25
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 190
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f9f375495293310800000000000000
+      internalID: 1385179679442313047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 184
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc463b3958e15fe0800000000000000
+      internalID: -1201924155588064008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 182
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff7ec49c1a1d4bd0800000000000000
+      internalID: -2644428696138645505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sliderExample
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 122
+        width: 276
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2e1549ba8847e60800000000000000
+      internalID: 7959136711979688692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 145
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806f81e183a107b30800000000000000
+      internalID: 4282952073954784776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: search
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 95
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6354ec551215360800000000000000
+      internalID: 7156537935285008090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 102
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db10951aa5aff07c0800000000000000
+      internalID: -4102785468350266947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button-
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 89
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcd5a7c378e08980800000000000000
+      internalID: -8538569309526041349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button+
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 89
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa90fdca1d252000800000000000000
+      internalID: 10464167285791478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Global
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 43
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a70842b10f3f3b0800000000000000
+      internalID: -5479772322212578731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 40
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a70b487d7c5abce0800000000000000
+      internalID: -1388695841131526239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quarterButton
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 34
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57383ebe9e4337e00800000000000000
+      internalID: 1041234118142296949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quarterButtonPressed
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 37
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f2fbf226e992d30800000000000000
+      internalID: 4407227854903783309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SliderBG
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 68
+        width: 276
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c684ba8565a88d0800000000000000
+      internalID: -2843365275900285826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 35
+        width: 25
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a24ae64033d8f20800000000000000
+      internalID: 3426450985627953790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SliderFill
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 43
+        width: 124
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a047306d0ea698bb0800000000000000
+      internalID: -4933294402911898614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dots
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 217
+        width: 39
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 1, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be606df3b935dbd0800000000000000
+      internalID: -2606113364151079245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wifi
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 143
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a731bdc5b554785b0800000000000000
+      internalID: -5366244172286454918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bf9c66337c9fb3940a16e16eab57c917
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
